@@ -26,7 +26,7 @@
   "homepage": "https://github.com/parrot-design/parrot-mini-axios#readme",
   "devDependencies": {
     "@material-ui/core": "^4.12.2",
-    "@parrotjs/rc-helper-class": "0.0.2",
+    "@parrotjs/rc-helper-class": "0.0.6",
     "@types/react": "^17.0.14",
     "@types/react-dom": "^17.0.9",
     "css-loader": "^6.2.0",

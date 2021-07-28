@@ -1,0 +1,28 @@
+@keyframes loadingCircle {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.parrot-icon {
+  display: inline-block;
+  font-style: normal;
+  line-height: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: inherit;
+}
+.parrot-icon-small {
+  font-size: 16px;
+}
+.parrot-icon-default {
+  font-size: 24px;
+}
+.parrot-icon-large {
+  font-size: 32px;
+}
+.parrot-icon-inherit {
+  font-size: inherit;
+}
+.parrot-icon-spin {
+  animation: loadingCircle 1s infinite linear;
+}
