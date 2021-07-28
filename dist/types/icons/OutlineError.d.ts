@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const OutlineError: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const OutlineError: (props: IParrotIconProps) => JSX.Element;
 export default OutlineError;

@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const RadioUncheck: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const RadioUncheck: (props: IParrotIconProps) => JSX.Element;
 export default RadioUncheck;

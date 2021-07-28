@@ -13,7 +13,7 @@ export interface IParrotIconProps{
     size?:'inherit'|'small'|'default'|'large'|number;
     rotate?:number;
     onClick?:Function|any;
-    icon:any;
+    icon?:any;
     spin?:boolean;
     style?:React.CSSProperties;
 } 

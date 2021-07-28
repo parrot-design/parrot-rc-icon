@@ -2,8 +2,9 @@
 import React from 'react';
 import CheckboxUnSelectedSvg from '../svg/CheckboxUnSelected';
 
+import { IParrotIconProps} from '../index'
 import ParrotIcon from '../components/ParrotIcon';
 
-const CheckboxUnSelect=(props:any,ref:any)=><ParrotIcon {...props} ref={ref} icon={CheckboxUnSelectedSvg} />;
+const CheckboxUnSelect=(props:IParrotIconProps)=><ParrotIcon {...props}  icon={CheckboxUnSelectedSvg} />;
 
 export default CheckboxUnSelect;

@@ -1,8 +1,9 @@
 import React from 'react';
 import OutlineInfoSvg from '../svg/OutlineInfo';
 
+import { IParrotIconProps} from '../index'
 import ParrotIcon from '../components/ParrotIcon';
 
-const OutlineInfo=(props:any,ref:any)=><ParrotIcon {...props} ref={ref} icon={OutlineInfoSvg} />;
+const OutlineInfo=(props:IParrotIconProps)=><ParrotIcon {...props}  icon={OutlineInfoSvg} />;
 
 export default OutlineInfo;

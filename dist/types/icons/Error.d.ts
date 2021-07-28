@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const Error: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const Error: (props: IParrotIconProps) => JSX.Element;
 export default Error;

@@ -1,8 +1,9 @@
 import React from 'react';
 import EmptySvg from '../svg/Empty';
 
+import { IParrotIconProps} from '../index'
 import ParrotIcon from '../components/ParrotIcon';
 
-const Empty=(props:any,ref:any)=><ParrotIcon {...props} ref={ref} icon={EmptySvg} />;
+const Empty=(props:IParrotIconProps)=><ParrotIcon {...props}  icon={EmptySvg} />;
 
 export default Empty;

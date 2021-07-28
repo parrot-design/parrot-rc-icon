@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const KeyboardArrowRight: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const KeyboardArrowRight: (props: IParrotIconProps) => JSX.Element;
 export default KeyboardArrowRight;

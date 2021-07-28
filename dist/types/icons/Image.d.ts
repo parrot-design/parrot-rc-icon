@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const Image: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const Image: (props: IParrotIconProps) => JSX.Element;
 export default Image;

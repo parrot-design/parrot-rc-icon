@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const CheckboxSelected: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const CheckboxSelected: (props: IParrotIconProps) => JSX.Element;
 export default CheckboxSelected;

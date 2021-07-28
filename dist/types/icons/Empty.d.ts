@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const Empty: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const Empty: (props: IParrotIconProps) => JSX.Element;
 export default Empty;

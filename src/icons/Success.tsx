@@ -2,8 +2,9 @@
 import React from 'react';
 import SuccessSvg from '../svg/Success';
 
+import { IParrotIconProps} from '../index'
 import ParrotIcon from '../components/ParrotIcon';
 
-const Success=(props:any,ref:any)=><ParrotIcon {...props} ref={ref} icon={SuccessSvg} />;
+const Success=(props:IParrotIconProps)=><ParrotIcon {...props}  icon={SuccessSvg} />;
 
 export default Success;

@@ -1,8 +1,9 @@
 import React from 'react';
 import CheckboxSelectedSvg from '../svg/CheckboxSelected';
 
+import { IParrotIconProps} from '../index'
 import ParrotIcon from '../components/ParrotIcon';
 
-const CheckboxSelected=(props:any,ref:any)=><ParrotIcon {...props} ref={ref} icon={CheckboxSelectedSvg} />;
+const CheckboxSelected=(props:IParrotIconProps)=><ParrotIcon {...props}  icon={CheckboxSelectedSvg} />;
 
 export default CheckboxSelected;

@@ -1,8 +1,9 @@
 import React from 'react';
 import ShrinkSvg from '../svg/Shrink';
 
+import { IParrotIconProps} from '../index'
 import ParrotIcon from '../components/ParrotIcon';
 
-const Shrink=(props:any,ref:any)=><ParrotIcon {...props} ref={ref} icon={ShrinkSvg} />;
+const Shrink=(props:IParrotIconProps)=><ParrotIcon {...props}  icon={ShrinkSvg} />;
 
 export default Shrink;

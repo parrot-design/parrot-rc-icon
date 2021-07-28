@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const MoreHorizontal: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const MoreHorizontal: (props: IParrotIconProps) => JSX.Element;
 export default MoreHorizontal;

@@ -2,8 +2,9 @@
 import React from 'react';
 import EyeOffSvg from '../svg/EyeOff';
 
+import { IParrotIconProps} from '../index'
 import ParrotIcon from '../components/ParrotIcon';
 
-const EyeOff=(props:any,ref:any)=><ParrotIcon {...props} ref={ref} icon={EyeOffSvg} />;
+const EyeOff=(props:IParrotIconProps)=><ParrotIcon {...props}  icon={EyeOffSvg} />;
 
 export default EyeOff;

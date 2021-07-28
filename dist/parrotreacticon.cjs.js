@@ -61,7 +61,7 @@ const ParrotIcon = React__default['default'].forwardRef((props, ref) => {
         }) }, renderIcon()));
 });
 
-const Add = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Add$1 }));
+const Add = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Add$1 }));
 
 const CloseSquare$1 = {
     "icon": {
@@ -81,7 +81,7 @@ const CloseSquare$1 = {
     }
 };
 
-const CloseSquare = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: CloseSquare$1 }));
+const CloseSquare = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: CloseSquare$1 }));
 
 const KeyboardArrowDown$1 = {
     "icon": {
@@ -101,7 +101,7 @@ const KeyboardArrowDown$1 = {
     }
 };
 
-const KeyboardArrowDown = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: KeyboardArrowDown$1 }));
+const KeyboardArrowDown = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: KeyboardArrowDown$1 }));
 
 const KeyboardArrowUp$1 = {
     "icon": {
@@ -121,7 +121,7 @@ const KeyboardArrowUp$1 = {
     }
 };
 
-const KeyboardArrowUp = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: KeyboardArrowUp$1 }));
+const KeyboardArrowUp = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: KeyboardArrowUp$1 }));
 
 const EyeOff$1 = {
     "icon": {
@@ -141,7 +141,7 @@ const EyeOff$1 = {
     }
 };
 
-const EyeOff = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: EyeOff$1 }));
+const EyeOff = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: EyeOff$1 }));
 
 const EyeOn$1 = {
     "icon": {
@@ -161,7 +161,7 @@ const EyeOn$1 = {
     }
 };
 
-const EyeOn = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: EyeOn$1 }));
+const EyeOn = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: EyeOn$1 }));
 
 const CheckboxUnSelected = {
     "icon": {
@@ -181,7 +181,7 @@ const CheckboxUnSelected = {
     }
 };
 
-const CheckboxUnSelect = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: CheckboxUnSelected }));
+const CheckboxUnSelect = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: CheckboxUnSelected }));
 
 const CheckboxSelected$1 = {
     "icon": {
@@ -201,7 +201,7 @@ const CheckboxSelected$1 = {
     }
 };
 
-const CheckboxSelected = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: CheckboxSelected$1 }));
+const CheckboxSelected = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: CheckboxSelected$1 }));
 
 const FavoriteOutline$1 = {
     "icon": {
@@ -221,7 +221,7 @@ const FavoriteOutline$1 = {
     }
 };
 
-const FavoriteOutline = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: FavoriteOutline$1 }));
+const FavoriteOutline = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: FavoriteOutline$1 }));
 
 const Favorite$1 = {
     "icon": {
@@ -241,7 +241,7 @@ const Favorite$1 = {
     }
 };
 
-const Favorite = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Favorite$1 }));
+const Favorite = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Favorite$1 }));
 
 const Copy$1 = {
     "icon": {
@@ -261,7 +261,7 @@ const Copy$1 = {
     }
 };
 
-const Copy = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Copy$1 }));
+const Copy = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Copy$1 }));
 
 const Edit$1 = {
     "icon": {
@@ -281,7 +281,7 @@ const Edit$1 = {
     }
 };
 
-const Edit = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Edit$1 }));
+const Edit = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Edit$1 }));
 
 const Check$1 = {
     "icon": {
@@ -301,7 +301,7 @@ const Check$1 = {
     }
 };
 
-const Check = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Check$1 }));
+const Check = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Check$1 }));
 
 const Warning$1 = {
     "icon": {
@@ -321,7 +321,7 @@ const Warning$1 = {
     }
 };
 
-const Warning = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Warning$1 }));
+const Warning = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Warning$1 }));
 
 const Person$1 = {
     "icon": {
@@ -341,7 +341,7 @@ const Person$1 = {
     }
 };
 
-const Person = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Person$1 }));
+const Person = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Person$1 }));
 
 const Image$1 = {
     "icon": {
@@ -361,7 +361,7 @@ const Image$1 = {
     }
 };
 
-const Image = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Image$1 }));
+const Image = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Image$1 }));
 
 const KeyboardArrowLeft$1 = {
     "icon": {
@@ -381,7 +381,7 @@ const KeyboardArrowLeft$1 = {
     }
 };
 
-const KeyboardArrowLeft = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: KeyboardArrowLeft$1 }));
+const KeyboardArrowLeft = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: KeyboardArrowLeft$1 }));
 
 const KeyboardArrowRight$1 = {
     "icon": {
@@ -401,7 +401,7 @@ const KeyboardArrowRight$1 = {
     }
 };
 
-const KeyboardArrowRight = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: KeyboardArrowRight$1 }));
+const KeyboardArrowRight = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: KeyboardArrowRight$1 }));
 
 const RadioChecked$1 = {
     "icon": {
@@ -421,7 +421,7 @@ const RadioChecked$1 = {
     }
 };
 
-const RadioChecked = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: RadioChecked$1 }));
+const RadioChecked = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: RadioChecked$1 }));
 
 const RadioUncheck$1 = {
     "icon": {
@@ -441,7 +441,7 @@ const RadioUncheck$1 = {
     }
 };
 
-const RadioUncheck = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: RadioUncheck$1 }));
+const RadioUncheck = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: RadioUncheck$1 }));
 
 const ArrowUp$1 = {
     "icon": {
@@ -461,7 +461,7 @@ const ArrowUp$1 = {
     }
 };
 
-const ArrowUp = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: ArrowUp$1 }));
+const ArrowUp = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: ArrowUp$1 }));
 
 const ArrowDown$1 = {
     "icon": {
@@ -481,7 +481,7 @@ const ArrowDown$1 = {
     }
 };
 
-const ArrowDown = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: ArrowDown$1 }));
+const ArrowDown = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: ArrowDown$1 }));
 
 const MoreHorizontal$1 = {
     "icon": {
@@ -501,7 +501,7 @@ const MoreHorizontal$1 = {
     }
 };
 
-const MoreHorizontal = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: MoreHorizontal$1 }));
+const MoreHorizontal = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: MoreHorizontal$1 }));
 
 const ArrowDoubleLeft$1 = {
     "icon": {
@@ -528,7 +528,7 @@ const ArrowDoubleLeft$1 = {
     }
 };
 
-const ArrowDoubleLeft = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: ArrowDoubleLeft$1 }));
+const ArrowDoubleLeft = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: ArrowDoubleLeft$1 }));
 
 const ArrowDoubleRight$1 = {
     "icon": {
@@ -555,7 +555,7 @@ const ArrowDoubleRight$1 = {
     }
 };
 
-const ArrowDoubleRight = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: ArrowDoubleRight$1 }));
+const ArrowDoubleRight = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: ArrowDoubleRight$1 }));
 
 const Expand$1 = {
     "icon": {
@@ -589,7 +589,7 @@ const Expand$1 = {
     }
 };
 
-const Expand = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Expand$1 }));
+const Expand = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Expand$1 }));
 
 const Shrink$1 = {
     "icon": {
@@ -616,7 +616,7 @@ const Shrink$1 = {
     }
 };
 
-const Shrink = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Shrink$1 }));
+const Shrink = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Shrink$1 }));
 
 const File$1 = {
     "icon": {
@@ -643,7 +643,7 @@ const File$1 = {
     }
 };
 
-const File = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: File$1 }));
+const File = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: File$1 }));
 
 const OutlineError$1 = {
     "icon": {
@@ -663,7 +663,7 @@ const OutlineError$1 = {
     }
 };
 
-const OutlineError = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: OutlineError$1 }));
+const OutlineError = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: OutlineError$1 }));
 
 const OutlineSuccess$1 = {
     "icon": {
@@ -683,7 +683,7 @@ const OutlineSuccess$1 = {
     }
 };
 
-const OutlineSuccess = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: OutlineSuccess$1 }));
+const OutlineSuccess = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: OutlineSuccess$1 }));
 
 const OutlineInfo$1 = {
     "icon": {
@@ -710,7 +710,7 @@ const OutlineInfo$1 = {
     }
 };
 
-const OutlineInfo = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: OutlineInfo$1 }));
+const OutlineInfo = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: OutlineInfo$1 }));
 
 const OutlineWarning$1 = {
     "icon": {
@@ -737,7 +737,7 @@ const OutlineWarning$1 = {
     }
 };
 
-const OutlineWarning = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: OutlineWarning$1 }));
+const OutlineWarning = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: OutlineWarning$1 }));
 
 const CloseOutline$1 = {
     "icon": {
@@ -757,7 +757,7 @@ const CloseOutline$1 = {
     }
 };
 
-const CloseOutline = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: CloseOutline$1 }));
+const CloseOutline = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: CloseOutline$1 }));
 
 const QuestionOutline$1 = {
     "icon": {
@@ -777,7 +777,7 @@ const QuestionOutline$1 = {
     }
 };
 
-const QuestionOutline = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: QuestionOutline$1 }));
+const QuestionOutline = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: QuestionOutline$1 }));
 
 const Error$1 = {
     "icon": {
@@ -797,7 +797,7 @@ const Error$1 = {
     }
 };
 
-const Error = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Error$1 }));
+const Error = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Error$1 }));
 
 const Success$1 = {
     "icon": {
@@ -817,7 +817,7 @@ const Success$1 = {
     }
 };
 
-const Success = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Success$1 }));
+const Success = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Success$1 }));
 
 const Info$1 = {
     "icon": {
@@ -837,7 +837,7 @@ const Info$1 = {
     }
 };
 
-const Info = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Info$1 }));
+const Info = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Info$1 }));
 
 const Empty$1 = {
     "icon": {
@@ -880,7 +880,7 @@ const Empty$1 = {
     }
 };
 
-const Empty = (props, ref) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { ref: ref, icon: Empty$1 }));
+const Empty = (props) => React__default['default'].createElement(ParrotIcon, Object.assign({}, props, { icon: Empty$1 }));
 
 const Icon = React__default['default'].forwardRef((props, ref) => {
     const { className, viewBox, component: Component, componentName = 'icon', prefixCls: customizePrefixCls = 'parrot', children, rotate, size = "default" } = props;

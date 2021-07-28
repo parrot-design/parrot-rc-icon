@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const ArrowDoubleRight: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const ArrowDoubleRight: (props: IParrotIconProps) => JSX.Element;
 export default ArrowDoubleRight;

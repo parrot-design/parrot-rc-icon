@@ -1,8 +1,9 @@
 import React from 'react';
 import ArrowDownSvg from '../svg/ArrowDown';
 
+import { IParrotIconProps} from '../index'
 import ParrotIcon from '../components/ParrotIcon';
 
-const ArrowDown=(props:any,ref:any)=><ParrotIcon {...props} ref={ref} icon={ArrowDownSvg} />;
+const ArrowDown=(props:IParrotIconProps)=><ParrotIcon {...props}  icon={ArrowDownSvg} />;
 
 export default ArrowDown;

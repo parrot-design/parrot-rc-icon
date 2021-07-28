@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const Warning: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const Warning: (props: IParrotIconProps) => JSX.Element;
 export default Warning;

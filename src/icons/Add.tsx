@@ -1,9 +1,10 @@
 
 import React from 'react';
 import AddSvg from '../svg/Add';
+import { IParrotIconProps} from '../index' 
 
 import ParrotIcon from '../components/ParrotIcon';
 
-const Add=(props:any,ref:any)=><ParrotIcon {...props} ref={ref} icon={AddSvg} />;
+const Add=(props:IParrotIconProps)=><ParrotIcon {...props} icon={AddSvg} />;
 
 export default Add;

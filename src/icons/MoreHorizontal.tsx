@@ -1,8 +1,9 @@
 import React from 'react';
 import MoreHorizontalSvg from '../svg/MoreHorizontal';
 
+import { IParrotIconProps} from '../index'
 import ParrotIcon from '../components/ParrotIcon';
 
-const MoreHorizontal=(props:any,ref:any)=><ParrotIcon {...props} ref={ref} icon={MoreHorizontalSvg} />;
+const MoreHorizontal=(props:IParrotIconProps)=><ParrotIcon {...props}  icon={MoreHorizontalSvg} />;
 
 export default MoreHorizontal;

@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const FavoriteOutline: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const FavoriteOutline: (props: IParrotIconProps) => JSX.Element;
 export default FavoriteOutline;

@@ -1,3 +1,4 @@
 /// <reference types="react" />
-declare const CloseOutline: (props: any, ref: any) => JSX.Element;
+import { IParrotIconProps } from '../index';
+declare const CloseOutline: (props: IParrotIconProps) => JSX.Element;
 export default CloseOutline;
