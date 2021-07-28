@@ -1,0 +1,42 @@
+@import '@parrotjs/rc-helper-class/src/index.scss';
+
+@import "../styles/variable.scss";
+
+$prefixCls:"#{$global-prefixCls}-icon";
+
+@keyframes loadingCircle {
+ 
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.#{$prefixCls}{
+
+    display: inline-block;
+    font-style: normal;
+    line-height:0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color:inherit;
+
+    &-small{
+        font-size: 16px;
+    }
+
+    &-default{
+        font-size:24px;
+    }
+
+    &-large{
+        font-size:32px;
+    }
+
+    &-inherit{
+        font-size: inherit;
+    }
+
+    &-spin{
+        animation: loadingCircle 1s infinite linear;
+    }
+}
