@@ -1,6 +1,6 @@
 {
   "name": "@parrotjs/react-icon",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/parrotreacticon.cjs.js",
   "module": "dist/parrotreacticon.esm.js",
