@@ -1,11 +1,11 @@
 import React from 'react'; 
-import { Add } from '../../src';
+import { Search } from '../../src';
 import "./index.css";
 
 const Demo=()=>{
     return (
         <div> 
-            <Add size='large' />
+            <Search size='default'/>
         </div>
     )
 }
